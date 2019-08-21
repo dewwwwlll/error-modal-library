@@ -1,0 +1,17 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="row">
+        <input class="form-control" placeholder="Error Code" type="text" [(ngModel)]="customErrorCode">
+        <input class="form-control" placeholder="Error Message" type="text" [(ngModel)]="customErrorDescription">
+      </div>
+      <div class="row">
+        <button class="btn btn-success" (click)="showCustomError()">Open Custom Error</button>
+      </div>
+    </div>
+    <div class="col-sm-6 text-center">
+      <h5>Get custom error description for passed error Object</h5>
+      <button class="btn btn-success" (click)="openModal()">Open Custom Error Description</button>&nbsp;
+    </div>
+  </div>
+</div>

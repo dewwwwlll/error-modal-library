@@ -1,0 +1,31 @@
+.modal-body{
+  color: #c7000b;
+  border-radius: 4px;
+  margin: 6px;
+}
+
+.modal-header{
+  background-color: #c7000b;
+}
+
+.modal-title{
+  font-size: 23px;
+  color: white;
+  font-weight: 700;
+}
+
+.alert-danger {
+  border-radius: 4px;
+  padding: 1px 15px;
+}
+
+.modal-footer {
+  border-top: 1px solid #c7000b
+}
+
+/*.error-modal-footer{*/
+/*  display: flex;*/
+/*  justify-content: flex-end;*/
+/*  padding: 1rem;*/
+/*}*/
+
